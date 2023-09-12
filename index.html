@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Javascript first attempt </title>
+	<!--css links-->
+	<link rel="stylesheet"href="bootstrap.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="media.css"> 
+	<!-- font awesome --> 
+</head>  
+<body> 
+	<script>
+<div class="container">
+<h2 class="text-warning"> Javascript trials of using functions to change text after clicking buttons </h2> <button type="button" class="btn btn-dark" onclick="firstText()"> If you click on this button, you should see the text changed. 
+</button>
+<h2 id="h2"> This message should be changed to a new text message after the button above is clicked. </h2>
+</div>
+</script>
+
+   <button type="button" onclick="secondText()"> If you click on this button, it should be showing an html tip. </button>
+ <h2 id="h3"> Click on the second button above to see the text changed.</h2>
+
+
+<h3> A new part of the document to test mouse events:</h3> <button type="button" ondblclick="thirdText()"> You have to double-click on this button to see any response. </button>
+<h3 id="h4"> This is an example of a mouse double-click html event. </h3>
+
+
+<h3> If you left-click and hold the button below, it will display the name of the founder of Javascript.</h3> <button type="button" onmousedown="fourthText()"> Click and hold the mouse cursor here.</button>
+<h3 id="h5"> Click here.</h3>
+
+<h4> This is an example of a mouse-enter event in html. If you </h4>
+
+
+
+<!--text change--> 
+
+
+<!--script links --> 
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+<script src="bootstrap.bundle.min.js"></script>
+	</body>
+	</html>
